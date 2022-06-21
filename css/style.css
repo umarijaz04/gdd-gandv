@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "HelveticaNeueLTStd Roman";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("HelveticaNeueLTStd Roman"), local("HelveticaNeueLTStd-Roman"),
+    url("font/66e796dac9aff5a6967ebdd5e021db01.woff") format("woff"),
+    url("font/66e796dac9aff5a6967ebdd5e021db01.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Franklin Gothic Book";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Franklin Gothic Book"), local("FranklinGothicBook-Regular"),
+    url("font/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.woff")
+      format("woff"),
+    url("font/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.ttf")
+      format("truetype");
+}
+
+.container {
+  margin-bottom: 30px !important;
+}
+
+.col-md-3 {
+  margin-top: 30px !important;
+}
+
+.card {
+  background-color: #e9eaeb !important;
+  border: none !important;
+  height: 15rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card-text {
+    font-size: 10px !important;
+  }
+  .img-presentation {
+    width: 133px;
+  }
+  .callcentre {
+    margin-top: 61px !important;
+  }
+  .central-data {
+    margin-top: 61px !important;
+  }
+  .mitigate {
+    margin-top: 47px !important;
+  }
+  .record {
+    margin-top: 39px !important;
+  }
+  .training {
+    margin-top: 31px !important;
+  }
+  .ecommerce-text {
+    padding-top: 38px !important;
+  }
+  .call-billing {
+    margin-top: 41px !important;
+  }
+  .dac6 {
+    margin-top: 70px !important;
+  }
+  .team {
+    margin-top: 84px !important;
+  }
+  .vcam {
+    width: 96px;
+    margin-top: 38px !important;
+  }
+  .btn-infomation,
+  .btn-pricelist {
+    font-size: 10px !important;
+  }
+  .btn-container {
+    margin-top: 5px !important;
+  }
+}
+
+.card-text {
+  text-align: center !important;
+  color: #757678 !important;
+  font-family: "Franklin Gothic Book", "Arial", "Helvetica" !important;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-infomation,
+.btn-infomation:hover {
+  color: #fff;
+  background-color: #db7927;
+  border-color: #db7927;
+  border-radius: 6px;
+  font-family: "HelveticaNeueLTStd Roman", "Arial", "Helvetica" !important;
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+.btn-brochure, .btn-brochure:hover{
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
+  color: #ffff;
+  text-decoration: underline;
+  border-radius: 6px;
+  font-family: "Franklin Gothic Book", "Arial", "Helvetica" !important;
+  font-size: 15px;
+  padding: 2px 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-pricelist,
+.btn-pricelist:hover {
+  color: #fff;
+  background-color: #0b0b14;
+  border-color: #0b0b14;
+  border-radius: 6px;
+  font-family: "HelveticaNeueLTStd Roman", "Arial", "Helvetica" !important;
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+.img-presentation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
